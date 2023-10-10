@@ -61,7 +61,7 @@ export default function Menu() {
                   </li>
                   <li>
                     <a
-                      href="mailto:rodrigorodriguezbuxman@gmail.com"
+                      href="https://www.linkedin.com/in/rdrbux/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex text-sm justify-between w-24 py-0.5"
@@ -71,7 +71,7 @@ export default function Menu() {
                   </li>
                   <li>
                     <a
-                      href="mailto:rodrigorodriguezbuxman@gmail.com"
+                      href="https://github.com/RdrBux"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex text-sm justify-between w-24 py-0.5"
