@@ -9,7 +9,7 @@ export default function Home() {
         <div className="px-4 py-3 rounded-full border w-fit">
           <p className="text-xs flex gap-2 text-gray-500">
             <span className="text-emerald-300">{Hexagon}</span> Desarrollador
-            Fullstack
+            Web
           </p>
         </div>
         <h1 className={`${lora.className} text-7xl mt-2`}>

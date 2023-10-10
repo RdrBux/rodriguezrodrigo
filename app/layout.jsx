@@ -4,7 +4,7 @@ import './globals.css';
 import Menu from '@/components/Menu';
 
 export const metadata = {
-  title: 'Rodrigo Rodríguez | Desarrollador Fullstack',
+  title: 'Rodrigo Rodríguez | Desarrollador Web',
   description: 'Portfolio de Rodrigo Rodríguez',
 };
 
