@@ -20,8 +20,8 @@ export default function Menu() {
         <>
           <div className="fixed z-40 top-0 left-0 w-full h-full bg-gray-900/50"></div>
           <OutsideAlerter fn={() => setMenuActive(false)}>
-            <div className="container mx-auto p-2 relative">
-              <div className="bg-white flex flex-col gap-4 rounded-3xl p-8 absolute top-0 right-0 w-fit min-w-[340px] z-50">
+            <div className="container mx-auto relative">
+              <div className="bg-white flex flex-col gap-4 rounded-3xl p-8 absolute top-0 right-0 w-fit min-w-[340px] md:min-w-[360px] z-50">
                 <div className="flex items-center justify-between">
                   <p className="lg:w-0 overflow-hidden">Text</p>
                   <button

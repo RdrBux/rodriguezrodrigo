@@ -1,10 +1,14 @@
 import { Curve, Hexagon } from '@/components/Icons';
 import { lora } from './fonts';
+import Image from 'next/image';
+import HeroImg from './bg_home.png';
 
 export default function Home() {
   return (
     <section className="grid grid-cols-2">
-      <div className="w-full h-[70vh] bg-red-300 rounded-3xl col-start-2 row-start-1"></div>
+      <div className="w-full h-[70vh] bg-blue-200 rounded-3xl col-start-2 row-start-1">
+        <Image className="w-[400px] ml-32" src={HeroImg} alt="profile image" />
+      </div>
       <div className="col-span-2 col-start-1 row-start-1 self-center">
         <div className="px-4 py-3 rounded-full border w-fit">
           <p className="text-xs flex gap-2 text-gray-500">
