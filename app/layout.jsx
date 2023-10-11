@@ -2,6 +2,7 @@ import LangToggler from '@/components/LangToggler';
 import { inter, lora } from './fonts';
 import './globals.css';
 import Menu from '@/components/Menu';
+import Contact from '@/components/Contact';
 
 export const metadata = {
   title: 'Rodrigo Rodríguez | Desarrollador Web',
@@ -13,7 +14,7 @@ export default function RootLayout({ children }) {
     <html lang="es">
       <body className={inter.className}>
         <div className="container mx-auto px-2 text-gray-900">
-          <header className="flex my-10 justify-between items-center">
+          <header className="flex py-4 my-6 justify-between items-center">
             <h1 className={`${lora.className} text-2xl font-bold`}>
               Rodrigo Rodríguez
             </h1>
@@ -25,6 +26,8 @@ export default function RootLayout({ children }) {
 
           {children}
         </div>
+
+        <Contact />
       </body>
     </html>
   );

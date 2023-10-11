@@ -18,7 +18,7 @@ export default function Menu() {
 
       {menuActive && (
         <>
-          <div className="fixed z-40 top-0 left-0 w-full h-full bg-gray-900/50"></div>
+          <div className="fixed z-40 top-0 left-0 w-full h-full bg-gray-900/50 backdrop-blur-md"></div>
           <OutsideAlerter fn={() => setMenuActive(false)}>
             <div className="container mx-auto relative">
               <div className="bg-white flex flex-col gap-4 rounded-3xl p-8 absolute top-0 right-0 w-fit min-w-[340px] md:min-w-[360px] z-50">
@@ -48,13 +48,13 @@ export default function Menu() {
                   <li>Contacto</li>
                 </ul>
 
-                <ul className="ml-auto">
+                <ul className="ml-auto text-sm">
                   <li>
                     <a
                       href="mailto:rodrigorodriguezbuxman@gmail.com"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex text-sm justify-between w-24 py-0.5"
+                      className="flex justify-between w-24 py-0.5"
                     >
                       Email {ArrowLink}
                     </a>
@@ -64,7 +64,7 @@ export default function Menu() {
                       href="https://www.linkedin.com/in/rdrbux/"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex text-sm justify-between w-24 py-0.5"
+                      className="flex justify-between w-24 py-0.5"
                     >
                       LinkedIn {ArrowLink}
                     </a>
@@ -74,7 +74,7 @@ export default function Menu() {
                       href="https://github.com/RdrBux"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex text-sm justify-between w-24 py-0.5"
+                      className="flex justify-between w-24 py-0.5"
                     >
                       GitHub {ArrowLink}
                     </a>

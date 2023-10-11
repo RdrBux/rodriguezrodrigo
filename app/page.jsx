@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <section className="grid grid-cols-2">
-        <div className="w-full h-[70vh] bg-sky-200 rounded-3xl col-start-2 row-start-1">
+        <div className="w-full h-[70vh] bg-teal-200 overflow-hidden rounded-3xl col-start-2 row-start-1">
           <Image
             className="w-[400px] ml-24"
             src={HeroImg}
