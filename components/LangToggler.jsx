@@ -5,7 +5,7 @@ export default function LangToggler() {
   const [isEnglish, setIsEnglish] = useState(false);
 
   return (
-    <div className="rounded-full bg-gray-200 p-1 relative text-sm">
+    <div className="rounded-full bg-gray-300 p-1 relative text-sm">
       <div
         className={`${
           isEnglish ? 'translate-x-0' : 'translate-x-full'

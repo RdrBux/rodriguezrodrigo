@@ -68,13 +68,13 @@ export default function Contact() {
                 type="text"
                 name="name"
                 id="name"
-                className="block p-2.5 w-full text-sm bg-transparent border-2 rounded-lg border-gray-600 appearance-none focus:border-blue-500 focus:outline-none focus:ring-0 peer"
+                className="block p-2.5 w-full text-sm bg-transparent border-2 rounded-lg border-gray-600 appearance-none focus:border-teal-500 focus:outline-none focus:ring-0 peer"
                 placeholder=" "
                 required
               />
               <label
                 for="name"
-                className="mx-3.5 px-1 bg-gray-950 z-10 peer-focus:font-medium absolute text-sm text-gray-400 duration-300 transform -translate-y-[22px] scale-75 top-3 origin-[0] peer-focus:left-0 peer-focus:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-[22px]"
+                className="mx-3.5 px-1 bg-gray-950 z-10 peer-focus:font-medium absolute text-sm text-gray-400 duration-300 transform -translate-y-[22px] scale-75 top-3 origin-[0] peer-focus:left-0 peer-focus:text-teal-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-[22px]"
               >
                 Nombre
               </label>
@@ -85,13 +85,13 @@ export default function Contact() {
                 type="email"
                 name="email"
                 id="email"
-                className="block p-2.5 w-full text-sm bg-transparent border-2 rounded-lg border-gray-600 appearance-none focus:border-blue-500 focus:outline-none focus:ring-0 peer"
+                className="block p-2.5 w-full text-sm bg-transparent border-2 rounded-lg border-gray-600 appearance-none focus:border-teal-500 focus:outline-none focus:ring-0 peer"
                 placeholder=" "
                 required
               />
               <label
                 for="email"
-                className="mx-3.5 px-1 bg-gray-950 z-10 peer-focus:font-medium absolute text-sm text-gray-400 duration-300 transform -translate-y-[22px] scale-75 top-3 origin-[0] peer-focus:left-0 peer-focus:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-[22px]"
+                className="mx-3.5 px-1 bg-gray-950 z-10 peer-focus:font-medium absolute text-sm text-gray-400 duration-300 transform -translate-y-[22px] scale-75 top-3 origin-[0] peer-focus:left-0 peer-focus:text-teal-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-[22px]"
               >
                 Email address
               </label>
@@ -100,14 +100,14 @@ export default function Contact() {
               <textarea
                 name="message"
                 id="message"
-                className="block p-2.5 w-full text-sm bg-transparent border-2 rounded-lg border-gray-600 appearance-none focus:border-blue-500 focus:outline-none focus:ring-0 peer"
+                className="block p-2.5 w-full text-sm bg-transparent border-2 rounded-lg border-gray-600 appearance-none focus:border-teal-500 focus:outline-none focus:ring-0 peer"
                 placeholder=" "
                 rows={4}
                 required
               ></textarea>
               <label
                 for="message"
-                className="mx-3.5 px-1 bg-gray-950 z-10 peer-focus:font-medium absolute text-sm text-gray-400 duration-300 transform -translate-y-[22px] scale-75 top-3 origin-[0] peer-focus:left-0 peer-focus:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-[22px]"
+                className="mx-3.5 px-1 bg-gray-950 z-10 peer-focus:font-medium absolute text-sm text-gray-400 duration-300 transform -translate-y-[22px] scale-75 top-3 origin-[0] peer-focus:left-0 peer-focus:text-teal-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-[22px]"
               >
                 Mensaje
               </label>
@@ -115,7 +115,7 @@ export default function Contact() {
 
             <button
               type="submit"
-              className="text-white focus:ring-4 focus:outline-none font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center bg-blue-600 hover:bg-blue-700 focus:ring-blue-800"
+              className="text-white focus:ring-4 focus:outline-none font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center bg-teal-600 hover:bg-teal-700 focus:ring-teal-800"
             >
               Enviar
             </button>
